@@ -1,0 +1,27 @@
+.contact {
+  flex-flow: column;
+  @media (min-width: $breakpoint-tablet) {
+    flex-flow: row;
+  }
+  aside {
+    flex: 1 1 auto;
+    padding: 20px;
+    padding-right: 40px;
+    form {
+      display: flex;
+      flex-flow: column;
+    }
+    input, textarea {
+      margin-bottom: 20px;
+    }
+    input[type="submit"] {
+      width: 200px;
+    }
+  }
+  .map {
+    flex: 3 1 auto;
+    * {
+      width: 100%;
+    }
+  }
+}

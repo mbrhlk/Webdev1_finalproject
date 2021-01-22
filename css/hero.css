@@ -1,0 +1,19 @@
+.hero {
+  background: url("../img/girl_pinkbg.jpg") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .content {
+  max-width: 50%;
+  padding: 20px;
+}
+/*# sourceMappingURL=hero.css.map */

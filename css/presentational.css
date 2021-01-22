@@ -1,0 +1,54 @@
+.presentational {
+  padding: 30px 0;
+}
+
+.presentational aside {
+  width: 50%;
+}
+
+.presentational figure {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+}
+
+.presentational figure img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.presentational .calendar li {
+  width: 100%;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.presentational .calendar li main {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.presentational .calendar li aside {
+  vertical-align: top;
+  max-width: 50px;
+  display: inline-block;
+  border-left: 6px solid blue;
+  padding: 10px;
+}
+
+.presentational .calendar li aside .day {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.presentational .calendar li aside .month {
+  display: inline-block;
+  width: 100%;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=presentational.css.map */

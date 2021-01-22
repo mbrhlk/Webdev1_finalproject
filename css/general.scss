@@ -1,0 +1,92 @@
+@import './variables';
+$breakpoint-tablet: 768px;
+
+p {
+  font-family: $font-family-lora;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-16;
+  line-height: $line-spacing-24;
+  letter-spacing: $character-spacing-0;
+  color: $color-ffffff;
+}
+h2 {
+  font-family: $font-family-baloo-tamma-2;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-40;
+  line-height: $line-spacing-69;
+  letter-spacing: $character-spacing-0;
+  color: $color-f5bfbf;
+}
+li {
+  font-family: $font-family-baloo-tamma-2;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-20;
+  line-height: $line-spacing-69;
+  letter-spacing: $character-spacing-0;
+  color: $color-ffffff;
+}
+a {
+  font-family: $font-family-baloo-tamma-2;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-20;
+  line-height: $line-spacing-69;
+  letter-spacing: $character-spacing-0;
+  color: $color-a87272;
+}
+h1 {
+  font-family: $font-family-baloo-tamma-2;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-40;
+  line-height: $line-spacing-69;
+  letter-spacing: $character-spacing-0;
+  color: $color-ffffff;
+  @media (min-width: $breakpoint-tablet) {
+    font-size: $font-size-100;
+    line-height: $line-spacing-105;
+  }
+}
+h3 {
+  font-family: $font-family-baloo-tamma-2;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-600;
+  font-size: $font-size-20;
+  line-height: $line-spacing-34;
+  letter-spacing: $character-spacing-0;
+  color: $color-ffffff;
+}
+body {
+  font-family: $font-family-lora;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-16;
+  line-height: $line-spacing-24;
+  letter-spacing: $character-spacing-0;
+}
+
+.round-boy {
+  background: transparent;
+  padding: 5px 15px;
+  border-radius: 25px;
+  border: 2px solid $color-f5bfbf;
+  font-family: $font-family-baloo-tamma-2;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-16;
+  line-height: $line-spacing-24;
+  letter-spacing: $character-spacing-0;
+  color: $color-f5bfbf;
+}
+.bg-color-1 {
+  background-color: $color-a87272;
+}
+.bg-color-2 {
+  background-color: $color-f5f4d7;
+}
+section {
+  display: flex;
+}

@@ -1,0 +1,150 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Lora&display=swap" rel="stylesheet">   
+    <meta charset="UTF-8">
+    <meta name="description" content="Handmade Skin Products">
+    <meta name="keywords" content="Skincare, Skin, Beauty, Handmade, Vancouver">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>LaPiel SkinCare</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <nav class="main-menu">
+        <img src="./img/hamburger.png" alt="menu icon" class="burguer" onclick="toggleMenu()">
+        <div class="options hidden-phone">
+          <img src="./img/lapiel_branco.png" class="logo" />
+          <ul>
+            <li onclick="toggleMenu()">About</li>
+            <li onclick="toggleMenu()">Contact</li>
+            <li onclick="toggleMenu()">News</li>
+            <li onclick="toggleMenu()">Shop</li>
+          </ul>
+        </div>
+      </nav>
+      <section class="hero">
+        <div class="content">
+          <h1>Handmade Skin Products</h1>
+          <button class="round-boy">See all</button>
+        </div>
+      </section>
+      <section class="presentational">
+        <aside>
+          <h2>Your Skin, our priority.</h2>
+          <p>Orion’s sword a billion trillion are creatures of the cosmos birth kindling the energy hidden in matter vastness is bearable only through love.</p>
+          <button class="round-boy">Discover</button>
+        </aside>
+        <figure>
+          <img src="./img/eyes.jpg" alt="lady eyes" />
+        </figure>
+      </section>
+      <section class="presentational bg-color-1">
+        <aside>
+          <ul class="calendar">
+            <li>
+              <aside>
+                <span class="day">21</span>
+                <span class="month">Feb</span>
+              </aside>
+              <main>
+                <h3>How to take care of your skin.</h3>
+                <p>The description of the event goes here</p>
+                <nav>
+                  <span>2:00 PM</span>
+                  <span>Sunday</span>
+                </nav>
+              </main>
+            </li>
+            <li>
+              <aside>
+                <span class="day">21</span>
+                <span class="month">Feb</span>
+              </aside>
+              <main>
+                <h3>Vitamin C</h3>
+                <p>The description of the event goes here</p>
+                <nav>
+                  <span>3:00 PM</span>
+                  <span>Monday</span>
+                </nav>
+              </main>
+            </li>
+            <li>
+              <aside>
+                <span class="day">21</span>
+                <span class="month">Feb</span>
+              </aside>
+              <main>
+                <h3>Collagen production</h3>
+                <p>The description of the event goes here</p>
+                <nav>
+                  <span>9:00 AM</span>
+                  <span>Saturday</span>
+                </nav>
+              </main>
+            </li>
+          </ul>
+          <button class="round-boy">See all</button>
+        </aside>
+        <figure>
+          <img src="./img/lotion.jpg" alt="hands skin care" />
+        </figure>
+      </section>
+      <section class="articles bg-color-2">
+        <div class="wrapper">
+          <article>
+            <figure style="background: url(./img/frecklesboy.jpg) center no-repeat;"></figure>
+            <h3>Freckles & Care</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="">Read more</a>
+          </article>
+          <article>
+            <figure style="background: url(./img/girl.jpg) center no-repeat;"></figure>
+            <h3>Black Skin Care</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="">Read more</a>
+          </article>
+          <article>
+            <figure style="background: url(./img/skinStuff.jpg) center no-repeat;"></figure>
+            <h3>Morning routine</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="">Read more</a>
+          </article>
+          <article>
+            <figure style="background: url(./img/woman.jpg) center no-repeat;"></figure>
+            <h3>50+ Skin care</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="">Read more</a>
+          </article>
+        </div>
+      </section>
+      <section class="contact">
+        <aside>
+            <h2>Contact</h2>
+            <p>607, Robson St. - Vancouver</p>
+            <form>
+              <input type="text" placeholder="Name" class="round-boy" />
+              <input type="text" placeholder="Email" class="round-boy" />
+              <textarea name="message" id="message" placeholder="Message" cols="30" rows="10" class="round-boy"></textarea>
+              <input type="submit" value="Send" class="round-boy">
+            </form>
+        </aside>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5036.33621095307!2d-123.1168579143233!3d49.280768787585714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1611201419063!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </section>
+    </div>
+
+    <script>
+        function toggleMenu() {
+          var menu = document.querySelector('.options')
+          return menu.classList.toggle('hidden-phone');
+        }
+    </script>
+  </body>
+</html>

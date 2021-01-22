@@ -1,0 +1,106 @@
+/* Colors: */
+/* Font/text values */
+p {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: medium;
+  font-size: 40px;
+  line-height: 69px;
+  letter-spacing: 0px;
+  color: #F5BFBF;
+}
+
+li {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 69px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+a {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 69px;
+  letter-spacing: 0px;
+  color: #A87272;
+}
+
+h1 {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 69px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 100px;
+    line-height: 105px;
+  }
+}
+
+h3 {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+body {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.round-boy {
+  background: transparent;
+  padding: 5px 15px;
+  border-radius: 25px;
+  border: 2px solid #F5BFBF;
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #F5BFBF;
+}
+
+.bg-color-1 {
+  background-color: #A87272;
+}
+
+.bg-color-2 {
+  background-color: #F5F4D7;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=general.css.map */

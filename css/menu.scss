@@ -1,0 +1,53 @@
+.main-menu {
+  background: $color-f5bfbf;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  .options {
+    background: $color-f5bfbf;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100vh;
+    box-shadow: 85px 0 rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .logo {
+    height: 40px;
+  }
+  li {
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+  }
+  .burguer {
+    display: inline-block;
+    height: 20px;
+    margin: 20px;
+  }
+  .hidden-phone {
+    display: none;
+  }
+  
+  @media (min-width: $breakpoint-tablet) {
+    .burguer {
+      display: none;
+      margin: 0;  
+    }
+    .options {
+      position: static;
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      box-shadow: none;
+    }
+    li {
+      width: auto;
+    }
+  }
+}

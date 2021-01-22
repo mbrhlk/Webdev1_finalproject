@@ -1,0 +1,61 @@
+.presentational {
+  padding: 30px 0;
+  flex-flow: column-reverse;
+  @media (min-width: $breakpoint-tablet) {
+    flex-flow: row;
+  }
+  p {
+    color:$color-707070;
+  }
+
+  aside {
+    flex: 1 1 auto;
+  }
+  figure {
+    flex: 1 1 auto;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    @media (min-width: $breakpoint-tablet) {
+      height: auto;
+    }
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .calendar {
+    p {
+      color:$color-ffffff;
+    }
+    li {
+      width: 100%;
+      vertical-align: top;
+      padding: 10px;
+      main {
+       display: inline-block;
+       vertical-align: top;
+      }
+      aside {
+        vertical-align: top;
+        max-width: 50px;
+        display: inline-block;
+        border-left: 6px solid $color-f5f4d7;
+        padding: 10px;
+        .day {
+          display: inline-block;
+          width: 100%;
+          font-size: 1.5rem;
+        }
+        .month {
+          display: inline-block;
+          width: 100%;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
